@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8369" started-at="2019-02-13T05:01:42Z" finished-at="2019-02-13T05:01:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8369" started-at="2019-02-13T05:01:42Z" finished-at="2019-02-13T05:01:50Z">
+      <class name="TestCase.TestLogin">
+        <test-method status="PASS" signature="Open_Browser()[pri:0, instance:TestCase.TestLogin@5c3bd550]" name="Open_Browser" is-config="true" duration-ms="11660" started-at="2019-02-13T05:01:30Z" finished-at="2019-02-13T05:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Browser -->
+        <test-method status="PASS" signature="Forgotten_Acc()[pri:0, instance:TestCase.TestLogin@5c3bd550]" name="Forgotten_Acc" duration-ms="2156" started-at="2019-02-13T05:01:42Z" finished-at="2019-02-13T05:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forgotten_Acc -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:TestCase.TestLogin@5c3bd550]" name="Login" duration-ms="6189" started-at="2019-02-13T05:01:44Z" finished-at="2019-02-13T05:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:TestCase.TestLogin@5c3bd550]" name="Close" is-config="true" duration-ms="2124" started-at="2019-02-13T05:01:50Z" finished-at="2019-02-13T05:01:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- TestCase.TestLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
