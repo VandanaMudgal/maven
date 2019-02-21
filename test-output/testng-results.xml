@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8369" started-at="2019-02-13T05:01:42Z" finished-at="2019-02-13T05:01:50Z">
+  <suite name="Suite" duration-ms="9163" started-at="2019-02-20T06:28:52Z" finished-at="2019-02-20T06:29:01Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8369" started-at="2019-02-13T05:01:42Z" finished-at="2019-02-13T05:01:50Z">
-      <class name="TestCase.TestLogin">
-        <test-method status="PASS" signature="Open_Browser()[pri:0, instance:TestCase.TestLogin@5c3bd550]" name="Open_Browser" is-config="true" duration-ms="11660" started-at="2019-02-13T05:01:30Z" finished-at="2019-02-13T05:01:42Z">
+    <test name="Test" duration-ms="9163" started-at="2019-02-20T06:28:52Z" finished-at="2019-02-20T06:29:01Z">
+      <class name="com.facebook.Testcase.LoginNew">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.facebook.Testcase.LoginNew@5c3bd550]" name="Setup" is-config="true" duration-ms="22968" started-at="2019-02-20T06:28:29Z" finished-at="2019-02-20T06:28:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Open_Browser -->
-        <test-method status="PASS" signature="Forgotten_Acc()[pri:0, instance:TestCase.TestLogin@5c3bd550]" name="Forgotten_Acc" duration-ms="2156" started-at="2019-02-13T05:01:42Z" finished-at="2019-02-13T05:01:44Z">
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="verifylogintest()[pri:0, instance:com.facebook.Testcase.LoginNew@5c3bd550]" name="verifylogintest" duration-ms="8520" started-at="2019-02-20T06:28:52Z" finished-at="2019-02-20T06:29:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Forgotten_Acc -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:TestCase.TestLogin@5c3bd550]" name="Login" duration-ms="6189" started-at="2019-02-13T05:01:44Z" finished-at="2019-02-13T05:01:50Z">
+        </test-method> <!-- verifylogintest -->
+        <test-method status="PASS" signature="verifytesttitle()[pri:0, instance:com.facebook.Testcase.LoginNew@5c3bd550]" name="verifytesttitle" duration-ms="585" started-at="2019-02-20T06:29:01Z" finished-at="2019-02-20T06:29:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:TestCase.TestLogin@5c3bd550]" name="Close" is-config="true" duration-ms="2124" started-at="2019-02-13T05:01:50Z" finished-at="2019-02-13T05:01:52Z">
+        </test-method> <!-- verifytesttitle -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.facebook.Testcase.LoginNew@5c3bd550]" name="close" is-config="true" duration-ms="742" started-at="2019-02-20T06:29:01Z" finished-at="2019-02-20T06:29:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Close -->
-      </class> <!-- TestCase.TestLogin -->
+        </test-method> <!-- close -->
+      </class> <!-- com.facebook.Testcase.LoginNew -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
